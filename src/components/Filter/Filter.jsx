@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { BiSearchAlt2 } from 'react-icons/bi';
-import css from 'components/ContactForm/Filter.module.css';
+import css from 'components/Filter/Filter.module.css';
 
 export const Filter = ({ filter, onChange }) => {
   return (
@@ -25,6 +25,6 @@ export const Filter = ({ filter, onChange }) => {
 };
 
 Filter.propTypes = {
-  filter: PropTypes.string.isRequired, 
+  filter: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
 };
